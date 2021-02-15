@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/flower-app/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/flower-app/static/js/main.7b41d5fc.chunk.js",
-    "main.js.map": "/flower-app/static/js/main.7b41d5fc.chunk.js.map",
+    "main.js": "/flower-app/static/js/main.f5782b70.chunk.js",
+    "main.js.map": "/flower-app/static/js/main.f5782b70.chunk.js.map",
     "runtime-main.js": "/flower-app/static/js/runtime-main.fccbdc05.js",
     "runtime-main.js.map": "/flower-app/static/js/runtime-main.fccbdc05.js.map",
     "static/css/2.150d169a.chunk.css": "/flower-app/static/css/2.150d169a.chunk.css",
-    "static/js/2.668cad5f.chunk.js": "/flower-app/static/js/2.668cad5f.chunk.js",
-    "static/js/2.668cad5f.chunk.js.map": "/flower-app/static/js/2.668cad5f.chunk.js.map",
+    "static/js/2.ceccab23.chunk.js": "/flower-app/static/js/2.ceccab23.chunk.js",
+    "static/js/2.ceccab23.chunk.js.map": "/flower-app/static/js/2.ceccab23.chunk.js.map",
     "static/js/3.b3f07723.chunk.js": "/flower-app/static/js/3.b3f07723.chunk.js",
     "static/js/3.b3f07723.chunk.js.map": "/flower-app/static/js/3.b3f07723.chunk.js.map",
     "index.html": "/flower-app/index.html",
     "static/css/2.150d169a.chunk.css.map": "/flower-app/static/css/2.150d169a.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/flower-app/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.668cad5f.chunk.js.LICENSE.txt": "/flower-app/static/js/2.668cad5f.chunk.js.LICENSE.txt"
+    "static/js/2.ceccab23.chunk.js.LICENSE.txt": "/flower-app/static/js/2.ceccab23.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fccbdc05.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.668cad5f.chunk.js",
+    "static/js/2.ceccab23.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.7b41d5fc.chunk.js"
+    "static/js/main.f5782b70.chunk.js"
   ]
 }
