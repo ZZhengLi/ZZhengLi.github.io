@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Sample Quotation</title>
+    <meta name="description" content="Company quotation">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="index.html">Eric</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quotation.html">Quotation</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+    </header>
+
+    <h1>Quotation</h1>
+    <b>Flash Company
+        <span style="float:right;font-size:30px;">
+            QUOTATION
+        </span>
+    </b>
+
+    <p>88 Moo 8 Bang Na-Trad Km.
+        <br>26 Bangsaothong
+        <span style="float:right;">
+            <img src="Flash.jpg" style="width:100px;height:100px;">
+        </span>
+        <br>Samuthprakarn Thailand
+
+    </p>
+    <br>
+    <p>10570</p>
+    <p id="bottom-line">
+        Phone: (66) 0-1234-2222
+        <span class="tab">Mobile: 0951234567</span>
+        <span style="float: right;">
+            <span id="currentDate">
+            2010/7/27
+        </span>
+        </span>
+    </p>
+
+
+
+    <p class="thick" style="text-align: center;">
+        Currency Dollar
+        <span class="tab">No.:A000000</span>
+        <span style="float:left;">
+            Page No. 2
+        </span>
+    </p>
+
+    <p style="text-align: center;">
+        Ship to:
+        <span class="tab">Mr.Eric</span>
+        <span class="tab"></span>
+        <span class="tab"></span>
+        <span class="tab"></span>
+        <span style="float:left;">
+            To:
+            <span class="tab">Mr.John</span>
+        </span>
+    </p>
+    <p style="text-align: center;">
+        88 Moo 8 Bang Na-Trad Km.	
+        <span style="float:left;">
+            <span class="tab"></span>   129 Moo 7 Bang Bo</span>
+
+        <br>
+        26 Bangsaothong
+        <span style="float:left;">
+            <span class="tab"></span>   Amphoe Bang Bo</span>
+
+        <br>
+        Samuthprakarn Thailand
+        <span style="float:left;">
+            <span class="tab"></span>   Samutprakarn</span>
+
+    </p>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Salesperson</th>
+                <th>Your P.O. No.</th>
+                <th>Date Shipped</th>
+                <th>Shipped Via</th>
+                <th>F.O.B Point</th>
+                <th>Terms</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="bottom-line">
+                <td class="data">Administrator</td>
+                <td class="data">Sample PO#</td>
+                <td class="data">2011/3/18</td>
+                <td class="data">Courier Services</td>
+                <td class="data">U.S.A</td>
+                <td class="data">2 Weeks</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+<button id="btnAdd">Add Item</button>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+
+        </tbody>
+        <tfooter>
+            <tr>
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+            <tr>
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+            <tr>
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+            <tr>
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+            <tr>
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+            <tr>
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+            <tr id="bottom-line">
+                <td class="data"><br></td>
+                <td class="data"></td>
+                <td class="data"></td>
+                <td class="data"></td>
+            </tr>
+
+            <tr id="sub-total">
+                <td colspan="3" class="data2 r colo"> Subtotal</td>
+                <td colspan="1" class="data2 r" id="bottom-line">
+                    <span id="subTotal">4,300.00</span>
+                </td>
+            </tr>
+            <tr id>
+                <td colspan="3" class="data2 r colo"> Sales Tax</td>
+                <td colspan="1" class="data2 r" id="bottom-line">
+                    <span id="saleTax">430.00</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="data2 r colo"> Shipping &amp; Handling</td>
+                <td colspan="1" class="data2 r" id="bottom-line">0.00</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="data2 r colo"> Total Due</td>
+                <td colspan="1" class="data2 r" id="bottom-line">
+                    <span id="totalDue">4,730.00</span></td>
+            </tr>
+        </tfooter>
+    </table>
+
+    <br>
+
+    <p class="cen">
+        <b>Make all checks payable to:</b>
+        <br><i>Your company name here</i>
+        <br><b>If you have any question concerning this invoices, call:</b>
+        <br>
+        <br><b>THANK YOU FOR YOUR BUSINESS</b>
+    </p>
+
+
+    <footer>Apitsara Choppradit</footer>
+
+</body>
+
+</html>

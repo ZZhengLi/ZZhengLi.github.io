@@ -1,0 +1,12 @@
+.jumbotron{
+    background: url("img/title01.jpg") no-repeat center center; 
+    background-size: cover;
+}
+
+.nav .information .chunk .content {
+    width: 100%;
+    height: auto;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+    }
