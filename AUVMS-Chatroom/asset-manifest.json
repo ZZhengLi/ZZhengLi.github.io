@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.56fbab5a.chunk.css",
-    "main.js": "/static/js/main.ca0f98bd.chunk.js",
-    "main.js.map": "/static/js/main.ca0f98bd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b89ffe0f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b89ffe0f.js.map",
-    "static/js/2.b8af8354.chunk.js": "/static/js/2.b8af8354.chunk.js",
-    "static/js/2.b8af8354.chunk.js.map": "/static/js/2.b8af8354.chunk.js.map",
-    "static/js/3.725f4d56.chunk.js": "/static/js/3.725f4d56.chunk.js",
-    "static/js/3.725f4d56.chunk.js.map": "/static/js/3.725f4d56.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.56fbab5a.chunk.css.map": "/static/css/main.56fbab5a.chunk.css.map",
-    "static/js/2.b8af8354.chunk.js.LICENSE.txt": "/static/js/2.b8af8354.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg3.a724627d.jpg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/AUVMS-Chatroom/static/css/main.230e685d.chunk.css",
+    "main.js": "/AUVMS-Chatroom/static/js/main.ca0f98bd.chunk.js",
+    "main.js.map": "/AUVMS-Chatroom/static/js/main.ca0f98bd.chunk.js.map",
+    "runtime-main.js": "/AUVMS-Chatroom/static/js/runtime-main.c20328e6.js",
+    "runtime-main.js.map": "/AUVMS-Chatroom/static/js/runtime-main.c20328e6.js.map",
+    "static/js/2.98d98a0a.chunk.js": "/AUVMS-Chatroom/static/js/2.98d98a0a.chunk.js",
+    "static/js/2.98d98a0a.chunk.js.map": "/AUVMS-Chatroom/static/js/2.98d98a0a.chunk.js.map",
+    "static/js/3.725f4d56.chunk.js": "/AUVMS-Chatroom/static/js/3.725f4d56.chunk.js",
+    "static/js/3.725f4d56.chunk.js.map": "/AUVMS-Chatroom/static/js/3.725f4d56.chunk.js.map",
+    "index.html": "/AUVMS-Chatroom/index.html",
+    "static/css/main.230e685d.chunk.css.map": "/AUVMS-Chatroom/static/css/main.230e685d.chunk.css.map",
+    "static/js/2.98d98a0a.chunk.js.LICENSE.txt": "/AUVMS-Chatroom/static/js/2.98d98a0a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/AUVMS-Chatroom/static/media/bg3.a724627d.jpg",
+    "static/media/logo.6ce24c58.svg": "/AUVMS-Chatroom/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b89ffe0f.js",
-    "static/js/2.b8af8354.chunk.js",
-    "static/css/main.56fbab5a.chunk.css",
+    "static/js/runtime-main.c20328e6.js",
+    "static/js/2.98d98a0a.chunk.js",
+    "static/css/main.230e685d.chunk.css",
     "static/js/main.ca0f98bd.chunk.js"
   ]
 }
