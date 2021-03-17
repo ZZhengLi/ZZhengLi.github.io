@@ -1,0 +1,52 @@
+[
+  {
+    "createdAt": "2021-02-01",
+    "id": 1,
+    "description": "Pizza",
+    "amount": 299,
+    "category": {
+      "id": 1,
+      "name": "Food"
+    }
+  },
+  {
+    "createdAt": "2021-02-10",
+    "id": 2,
+    "description": "Burger",
+    "amount": 199,
+    "category": {
+      "id": 1,
+      "name": "Food"
+    }
+  },
+  {
+    "createdAt": "2021-02-15",
+    "id": 3,
+    "description": "BTS",
+    "amount": 50,
+    "category": {
+      "id": 3,
+      "name": "Transportation"
+    }
+  },
+  {
+    "createdAt": "2021-02-17",
+    "id": 4,
+    "description": "Play Station 5",
+    "amount": 15000,
+    "category": {
+      "id": 2,
+      "name": "Fun"
+    }
+  },
+  {
+    "createdAt": "2021-02-20",
+    "id": 5,
+    "description": "MRT",
+    "amount": 40,
+    "category": {
+      "id": 3,
+      "name": "Transportation"
+    }
+  }
+]
