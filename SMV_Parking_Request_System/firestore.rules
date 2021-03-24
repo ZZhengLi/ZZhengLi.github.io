@@ -1,0 +1,18 @@
+rules_version = '2';
+  service cloud.firestore {
+    match /databases/{database}/documents {
+      match /{document=**} {
+        allow read, write: if false;
+}
+		match /request/{docID} {
+      allow read: if canCreateRequest();
+      allow create: if canCreateRequest();
+      allow delete: if canCreateRequest();
+      allow update: if canCreateRequest();
+    }
+
+    function canCreateRequest() {
+      return true;
+    }
+  }
+}
